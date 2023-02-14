@@ -1,0 +1,269 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="js/index.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LRDev</title>
+
+</head>
+<div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <div class="circle shadow ">
+                <img src="src/images/profile.jpeg" class="card-img-top img-cover ">
+            </div>
+            <h3 style="margin-left: 15px;">Lucas Renatto</h3>
+            <p class="text-light">Desenvolvedor FullStack</p>
+        </div>
+
+        <ul class="list-unstyled components" style="text-decoration: none;">
+            <li>
+                <a href="#about">Sobre mim</a>
+            </li>
+            <li>
+                <a href="#skills">Hard Skills</a>
+            </li>
+            <li>
+                <a href="#projetos">Projetos</a>
+            </li>
+            <li>
+                <a href="#contatos">Contato</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Page Content  -->
+    <div id="content">
+        <nav class="navbar d-md-none d-block">
+            <ul class="navbar-nav">
+                <div class="row">
+                    <div class="col-5 mx-1">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#about">Sobre Mim</a>
+                        </li>
+                    </div>
+                    <div class="col-4 mx-1">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                    </div>
+                    <div class="col-2 mx-1">
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#contatos">Contato</a>
+                        </li>
+                    </div>
+                </div>
+        </nav>
+        <div id="about">
+            <h2>Sobre Mim</h2>
+            <p>Sou um amante de jogos e atrabés deles é que veio a minha curiosidade "Como é criado um jogo?", graças a
+                essa
+                curiosidade eu descobri a incrivel área de programação. Minha primeira interação com desenvolvimento foi
+                quando eu tinha apenas 10 anos e "criei" um servidor "alternativo" do famoso Habbo Hotel, desde lá
+                estudei muitas tecnologias. Sou Bacharel em Sistemas de Informação e estou sempre a busca de mais
+                conhecimento.</p>
+
+        </div>
+        <hr>
+        <div id="skills">
+            <h2>Hard Skills</h2>
+            <p>Sempre tive afeição por <strong>back-end</strong>, mas meus conhecimentos não se limitam a uma unica
+                forma de desenvolvimento, conheça um pouco das minhas habilidades:</p>
+            <div class="row d-flex justify-content-center mb-4 mt-3">
+                <div class=" col-lg-4 col-md-12  col-sm-12 pb-2">
+                    <div class="card h-100" id="bgCard">
+                        <h5 class="card-header text-center">Back-End</h5>
+                        <div class="card-body">
+                            <p id="text-cards">Gosto de desenvolver projetos do zero, transformando as ideias do cliente
+                                em realidade através de códigos limpos e bem estruturados.</p>
+                            <p class="h4 text-center">Linguagens</p>
+                            <div class="tags">
+                                <span class="badge bg-primary">C#</span>
+                                <span class="badge bg-secondary">Java</span>
+                                <span class="badge bg-success">Python</span>
+                                <span class="badge bg-success">SQL</span>
+                                <span class="badge bg-danger">Javascript</span>
+                            </div>
+                            <p class="h4 text-center mt-3">Ferramentas</p>
+                            <div class="tags">
+                                <span class="badge bg-primary">.NET Framework</span>
+                                <span class="badge bg-secondary">.NET Core</span>
+                                <span class="badge bg-success">Spring Boot</span>
+                                <span class="badge bg-warning">MySQL</span>
+                                <span class="badge bg-info">SSMS</span>
+                                <span class="badge bg-primary">Azure DevOps</span>
+                                <span class="badge bg-secondary">Microsoft IIS</span>
+                                <span class="badge bg-success">Git</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 pb-2">
+                    <div class="card h-100" id="bgCard">
+                        <h5 class="card-header text-center">Front-End</h5>
+                        <div class="card-body">
+                            <p id="text-cards">Não é o meu forte, porém consigo desenvolver interfaces modernas de
+                                acordo com as necessidades.</p>
+                            <p class="h4 text-center">Marcação</p>
+                            <div class="tags">
+                                <span class="badge bg-primary">HTML</span>
+                                <span class="badge bg-secondary">CSHTML</span>
+                                <span class="badge bg-success">CSS</span>
+                                <span class="badge bg-success">XHTML</span>
+                                <span class="badge bg-danger">Javascript</span>
+                                <span class="badge bg-primary">DOM</span>
+                            </div>
+                            <p class="h4 text-center mt-3">Ferramentas</p>
+                            <div class="tags">
+
+                                <span class="badge bg-success">Angular</span>
+                                <span class="badge bg-danger">Flutter</span>
+                                <span class="badge bg-warning">VUE</span>
+                                <span class="badge bg-info">Bootstrap</span>
+                                <span class="badge bg-primary">Foundation</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 pb-2">
+                    <div class="card h-100" id="bgCard">
+                        <h5 class="card-header text-center">Outros</h5>
+                        <div class="card-body">
+                            <p id="text-cards">Dizem que um bom programador não pode se limitar a programação, ainda não
+                                me considero um ótimo programador, porém, estudo outras coisas.</p>
+                            <p class="h4 text-center">Àreas</p>
+                            <div class="tags">
+                                <span class="badge bg-primary">Social Media</span>
+                                <span class="badge bg-secondary">Video Maker</span>
+                                <span class="badge bg-success">Design</span>
+                            </div>
+                            <p class="h4 text-center mt-3">Ferramentas</p>
+                            <div class="tags">
+                                <span class="badge bg-primary">Sony Vegas</span>
+                                <span class="badge bg-secondary">Photoshop</span>
+                                <span class="badge bg-success">CorelDraw</span>
+                                <span class="badge bg-danger">After Effects</span>
+                                <span class="badge bg-warning">Illustrator</span>
+                                <span class="badge bg-info">Canva</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center">Também sei trabalhar com versionamento de código, conheço as arquiteturas
+                <strong>DDD</strong>, <strong>MVC</strong>, <strong>MVP</strong> entre outras e metodologias Ágeis</p>
+        </div>
+        <hr>
+        <div id="projetos">
+
+
+            <h2>Projetos</h2>
+            <p>Ja atuei em grandes projetos em grandes empresas, porém esses projetos são de visibilidade restritas, mas
+                aqui vai alguns projetos que desenvolvi:</p>
+            <div class="row d-flex justify-content-center mb-4 mt-3 ">
+                <div class="col-lg-3 col-md-12  col-sm-12 pb-2">
+                    <div class="card h-100" id="bgCard">
+                        <h5 class="card-header text-center">Luna FDV</h5>
+                        <div class="card-body">
+                            <p id="text-cards">É um projeto que tem como objetivo controlar vendas, clientes e produtos.
+                            </p>
+                            <p class="h4 text-center mt-3">Repositórios</p>
+                            <div class="text-center">
+                                <a href="https://github.com/lucasrenatto/lunafdvbackend.git" target="_blank"
+                                    style="text-decoration: none" ;>Back-End</a>
+                                <a href="https://github.com/lucasrenatto/lunafdv.git" target="_blank"
+                                    style="text-decoration: none" ;>Front-End</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12  col-sm-12 pb-2">
+                    <div class="card h-100" id="bgCard">
+                        <h5 class="card-header text-center">PEF</h5>
+                        <div class="card-body">
+                            <p id="text-cards">É um sistema de peticionamento eletrônico desenvolvido com PHP.</p>
+                            <p class="h4 text-center mt-3">Repositórios</p>
+                            <div class="text-center">
+                                <a href="https://github.com/lucasrenatto/pefpeticionamentoeletronic" target="_blank"
+                                    style="text-decoration: none" ;>PEF Repos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12  col-sm-12 pb-2"">
+                    <div class="card h-100" id="bgCard">
+                        <h5 class="card-header text-center">4Devs Rastreio</h5>
+                        <div class="card-body">
+                            <p id="text-cards">Projeto desenvolvido com Angular e Firebase para o rastreio de veículos.
+                            </p>
+                            <p class="h4 text-center mt-3">Repositórios</p>
+                            <div class="text-center">
+                                <a href="https://github.com/lucasrenatto/fourdevsrastreio.git" target="_blank"
+                                    style="text-decoration: none" ;>4Devs Rastreio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12  col-sm-12 pb-2"">
+                    <div class="card h-100" id="bgCard">
+                        <h5 class="card-header text-center">Reclama Ourinhos</h5>
+                        <div class="card-body">
+                            <p id="text-cards">Projeto FullStack com .NET de sistema de controle de reclamações.</p>
+                            <p class="h4 text-center mt-3">Repositórios</p>
+                            <div class="text-center">
+                                <a href="https://github.com/lucasrenatto/ProjetoDeConclusao2022" target="_blank"
+                                    style="text-decoration: none" ;>Reclama Ourinhos Repos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div id="contatos">
+            <h3 class="text-center">Fale Comigo!</h3>
+            <p class="text-center">Estou na maioria das redes sociais, você também pode falar comigo por email:
+                lucasrenatto07@gmail.com</p>
+            <nav class="btn_social">
+
+                <ul>
+                    <li><a href="https://www.facebook.com/LucasRenatto07/" target="_blank" title="facebook"><img
+                                src="src/svg/facebook.svg" class="w-50 mt-2 ms-2"></a></li>
+                    <li><a href="https://www.instagram.com/renattolucas/" target="_blank" title="instagram"><img
+                                src="src/svg/instagram.svg" class="w-50 mt-2 ms-2"></a></a></li>
+                    <li><a href="https://www.youtube.com/@AprendizdeProgramacao" target="_blank" title="youtube"><img
+                                src="src/svg/youtube.svg" class="w-50 mt-2 ms-2"></a></a></li>
+                    <li><a href="https://www.linkedin.com/in/renattolucas/" target="_blank" title="linkdin"><img
+                                src="src/svg/linkedin.svg" class="w-50 mt-2 ms-2"></a></a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <a href="#" class="float" id="teste" onclick="mudarEstado()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-moon"
+                viewBox="0 0 16 16" id="moon">
+                <path
+                    d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+            </svg>
+        </a>
+    </div>
+</div>
+
+</html>
